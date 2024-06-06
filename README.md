@@ -20,7 +20,7 @@ I am Xihai Ren, currently studying computer programming at Algonquin College, ex
 ## Contact
 
 - [Email](mailto:renxihai@gmail.com): renxihai@gmail.com
-- [Xihai Ren on LinkedIn](https://www.linkedin.com/in/xihairen)
+- [Xihai Ren on LinkedIn](https://www.linkedin.com/in/xihai-ren/)
 
 Thank you for visiting! If you have any questions or suggestions, please feel free to contact me.
 
