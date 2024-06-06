@@ -4,3 +4,6 @@
 [submodule "03Java/s3solidpriciples"]
 	path = 03Java/s3solidpriciples
 	url = https://github.com/RyanRen2023/s3solidpriciples.git
+[submodule "03Java/s3ooplabs"]
+	path = 03Java/s3ooplabs
+	url = https://github.com/RyanRen2023/s3ooplabs.git
