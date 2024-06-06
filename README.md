@@ -1,2 +1,26 @@
-# Portfolio
-Xihai Ren's Portfolio - A collection of my assignments and learning achievements.
+# Xihai Ren's Portfolio
+
+Welcome to my GitHub portfolio! This repository showcases my assignments and learning achievements during my studies at Algonquin College. I hope to demonstrate my skills and growth through this collection.
+
+## Contents
+
+- [Assignments](./Assignments): Contains all course assignments, including code and related documentation.
+- [Projects](./Projects): Includes projects I completed independently or collaboratively during my studies.
+- [LearningMaterials](./LearningMaterials): A collection of study materials and notes that help me better grasp course content.
+
+## About Me
+
+I am Xihai Ren, currently studying computer programming at Algonquin College, expect to graduate in August 2025. I have a passion for programming, enjoy solving complex problems, and continuously strive for self-improvement. Throughout my studies, I have gained proficiency in various programming languages and tools, including Java, Python, MySQL, and more.
+
+## Project Highlights
+
+- **Mixpanel Web Application**: Developed a web application using Mixpanel, including comprehensive requirements documentation, design, implementation, and deployment.
+- **Motorcycle Data Analysis**: Participated in a motorcycle data analysis project, using the data mining tool Weka for data processing and analysis.
+
+## Contact
+
+- [Email](mailto:renxihai@gmail.com): renxihai@gmail.com
+- [Xihai Ren on LinkedIn](https://www.linkedin.com/in/xihairen)
+
+Thank you for visiting! If you have any questions or suggestions, please feel free to contact me.
+
