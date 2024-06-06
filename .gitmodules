@@ -1,0 +1,6 @@
+[submodule "03Java/03Java/assignment1W24"]
+	path = 03Java/03Java/assignment1W24
+	url = https://github.com/RyanRen2023/s3solidpriciples.git
+[submodule "03Java/s3solidpriciples"]
+	path = 03Java/s3solidpriciples
+	url = https://github.com/RyanRen2023/s3solidpriciples.git
