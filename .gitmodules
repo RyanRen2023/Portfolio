@@ -7,3 +7,6 @@
 [submodule "03Java/s3ooplabs"]
 	path = 03Java/s3ooplabs
 	url = https://github.com/RyanRen2023/s3ooplabs.git
+[submodule "10Mobile/s3mobile"]
+	path = 10Mobile/s3mobile
+	url = https://github.com/RyanRen2023/s3mobile.git
