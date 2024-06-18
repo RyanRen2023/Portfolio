@@ -12,11 +12,6 @@ Welcome to my GitHub portfolio! This repository showcases my assignments and lea
 
 I am Xihai Ren, currently studying computer programming at Algonquin College, expect to graduate in August 2025. I have a passion for programming, enjoy solving complex problems, and continuously strive for self-improvement. Throughout my studies, I have gained proficiency in various programming languages and tools, including Java, Python, MySQL, and more.
 
-## Project Highlights
-
-- **Mixpanel Web Application**: Developed a web application using Mixpanel, including comprehensive requirements documentation, design, implementation, and deployment.
-- **Motorcycle Data Analysis**: Participated in a motorcycle data analysis project, using the data mining tool Weka for data processing and analysis.
-
 ## Contact
 
 - [Email](mailto:renxihai@gmail.com): renxihai@gmail.com
