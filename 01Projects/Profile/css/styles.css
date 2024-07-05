@@ -1,0 +1,467 @@
+/**
+ *   Name:   Xihai Ren
+ *   Course: CST8285 332 Web Programming Lab
+ *   Date: Mar 7,2024
+ *   Description: Assignment 1 CSS File
+ */
+/* generic css */
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: url(../images/bg-home-office-studio.jpg);
+    background-size: cover;
+    font-size: 14px;
+    min-width: 375px;
+    min-height: 100vh;
+    position: relative;
+
+}
+
+h1 {
+    font-size: 1.3em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+h3,
+h4 {
+    font-size: 1.1em;
+}
+
+
+
+/* brand */
+.brand-container {
+    font-family: 'Caveat', cursive;
+    color: #6e2424;
+}
+
+.motivation-quote {
+    font-style: italic;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px auto;
+}
+
+
+/* Navigation */
+nav {
+    background-color: #337c5d;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: auto 15px;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 16px;
+}
+
+nav a:hover {
+    background-color: #c9ebef;
+    color: black;
+}
+
+nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.selected {
+    background-color: #86bccb;
+    color: black;
+}
+
+/* main content */
+.main-content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    overflow-y: auto;
+    min-height: 60vh
+}
+
+
+
+
+
+/* header */
+header {
+    color: #333333;
+}
+
+header h1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+header h2 {
+    margin: 0px;
+}
+
+/* personal info */
+
+.personal-info {
+    margin: 10px auto;
+}
+
+.personal-info h1,
+.personal-info address {
+    margin-bottom: 10px;
+}
+
+.personal-info h2 {
+    margin-bottom: 15px;
+}
+
+.personal-info address {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+
+.personal-info address img {
+    width: 15px;
+    vertical-align: text-bottom;
+}
+
+.personal-info a {
+    color: cadetblue;
+    text-decoration: none;
+}
+
+a[href^='mailto']::before {
+    content: '📧 ';
+}
+
+a[href^='tel']::before {
+    content: '📞 ';
+}
+
+/* index page */
+.content-main-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.introduction {
+    flex: 2;
+}
+
+.content-aside {
+    flex: 1;
+    vertical-align: bottom;
+    padding-top: 50px;
+}
+
+.content-aside img {
+    width: 150px;
+    margin: auto 40px;
+    border-radius: 50%;
+}
+
+/* resume  page*/
+
+.resume-section {
+    margin-bottom: 50px;
+}
+
+.resume-section h2 {
+    border-bottom: 2px dashed rgb(72, 131, 133);
+}
+
+.resume-firstRow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.resume-firstRow h3 {
+    flex: 2;
+    text-align: left;
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+}
+
+.resume-firstRow p {
+    flex: 1;
+    text-align: right;
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+}
+
+/*Project*/
+.toggleProject {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    margin-top: 20px;
+}
+
+.layout-left {
+    margin-right: auto;
+    background-color: #96ce98;
+    border-radius: 10pt;
+    color: white;
+    padding: 5px 15px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+}
+
+.layout-right {
+    margin-left: auto;
+    background-color: #9ccded;
+    border-radius: 10pt;
+    color: white;
+    padding: 5px 15px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+}
+
+.disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+    color: #33333379
+}
+
+/* projects images */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.image-item {
+    flex: 1;
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.image-item:hover {
+    transform: scale(1.1);
+}
+
+.image-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-item .image-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+}
+
+/* contact */
+.contact {
+    margin: 10px;
+    height: 50%;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 45% 55%;
+    gap: 10px;
+    height: 100px;
+    margin: 15px;
+}
+
+.grid-left {
+    justify-self: end;
+}
+
+.grid-right {
+    justify-self: start;
+}
+
+.form-grid .input {
+    box-sizing: border-box;
+    width: 200px;
+    height: 20px;
+}
+
+.submit-reset {
+    text-align: center;
+}
+
+
+
+.form-grid .textarea {
+    width: 195px;
+    height: 40px;
+}
+
+
+.error {
+    border: 2px solid #ff0000;
+    background-color: #ffe6e6;
+}
+
+
+
+/* footer ============= */
+.footer-placeholder {
+    height: 40px;
+}
+
+footer {
+
+    background-color: #337c5d;
+    ;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+footer p {
+    margin: auto;
+    padding-top: 10px;
+    font-size: 16px;
+    vertical-align: bottom;
+}
+
+footer a {
+    color: #bcaa96;
+}
+
+footer a:hover {
+    color: #2329cd;
+}
+
+footer div {
+    flex: 1;
+    text-align: left;
+    margin: auto 10px;
+}
+
+footer img {
+    width: 24px;
+}
+
+footer img:hover {
+    opacity: 0.5;
+}
+
+/* responsive */
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 12px;
+    }
+
+    .main-content {
+        max-width: 600px;
+    }
+
+    .image-gallery {
+        flex-direction: column;
+    }
+
+    .image-item {
+        width: 100%;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .image-item img{
+        margin: 1px auto;
+    }
+  
+
+    .form-grid .input {
+        box-sizing: border-box;
+        width: 100px;
+    }
+
+    .form-grid .textarea {
+        width: 95px;
+    }
+
+
+}
+
+@media screen and (max-width: 476px) {
+
+    nav li {
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+
+    /* index page */
+    .content-main-flex {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .introduction {
+        flex: 2;
+    }
+
+    .content-aside {
+        flex: 1;
+        vertical-align: bottom;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .content-aside img {
+        width: 150px;
+        margin: auto 40px;
+        border-radius: 50%;
+    }
+
+}

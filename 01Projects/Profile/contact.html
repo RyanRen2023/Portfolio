@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+    Name:   Xihai Ren
+    Course: CST8285 332 Web Programming Lab
+    Date: Mar 7,2024
+    Description: Assignment 1 Contact Page
+ -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- import javascript file -->
+    <script src="js/myscript.js"></script>
+    <title>Contact</title>
+</head>
+
+<body>
+    <!-- brand -->
+    <header class="brand-container">
+        <p class="motivation-quote">Coding My Dream, Embracing New Horizons!</p>
+    </header>
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" class="selected">Contact</a></li>
+        </ul>
+    </nav>
+    <main class="main-content">
+        <!-- Header Section -->
+        <header class="personal-info">
+            <h1>Xihai Ren</h1>
+            <address>
+                <a href="mailto:ren00055@algonquinlive.com">ren00055@algonquinlive.com</a> |
+                <a href="tel:+15149998976">+1 (514) -999-8976</a> |
+                <span><img src="images/icon-logo-linkedin.png" alt="LinkedIn Logo"> <a
+                        href="https://www.linkedin.com/in/xihai-ren/" target="_blank"
+                        class="linkedin">LinkedIn</a></span>
+            </address>
+            <h2>Software Developer | Data Analyst | Project Manager</h2>
+        </header>
+        <!-- collect contact information -->
+        <div class="contact">
+            <form onsubmit="myformSubmit(event)" id="contact-form" action="#">
+                <fieldset>
+                    <legend>Leave your message</legend>
+                    <div class="form-grid">
+                        <label for="name" class="grid-left">Name:</label>
+                        <input type="text" name="name" id="name" class="grid-right input" required>
+
+                        <label for="email" class="grid-left">Email:</label>
+                        <input type="email" name="email" id="email" class="grid-right input" required>
+
+                        <label for="message" class="grid-left">Message:</label>
+                        <textarea name="message" id="message" class="grid-right textarea"></textarea>
+
+                    </div>
+                    <div class="submit-reset">
+                        <button type="submit">Submit</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <!-- just a place holder -->
+    <div class="footer-placeholder">
+
+    </div>
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Xihai Ren</p>
+    </footer>
+</body>
+
+</html>
