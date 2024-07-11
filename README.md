@@ -6,7 +6,6 @@ Welcome to my GitHub portfolio! This repository showcases my assignments and lea
 
 - [Assignments](./Assignments): Contains all course assignments, including code and related documentation.
 - [Projects](./Projects): Includes projects I completed independently or collaboratively during my studies.
-- [LearningMaterials](./LearningMaterials): A collection of study materials and notes that help me better grasp course content.
 
 ## About Me
 
